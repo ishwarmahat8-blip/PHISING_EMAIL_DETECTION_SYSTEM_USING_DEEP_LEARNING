@@ -1,0 +1,12 @@
+{
+    "model_name": "distilbert/distilbert-base-uncased",
+    "max_length": 256,
+    "input_text": "Subject: [subject] Body: [body]",
+    "classification_threshold": 0.5,
+    "labels": {
+        "0": "LEGITIMATE",
+        "1": "FRAUDULENT"
+    },
+    "training_epochs": 3,
+    "learning_rate": 2e-05
+}

@@ -1,0 +1,25 @@
+# Python & Backend
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Large model weights & datasets (avoid GitHub 100MB file push limit)
+backend/model/*.bin
+backend/model/*.safetensors
+backend/model/*.pt
+backend/model/*.h5
+*.csv
+
+# Next.js & Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
